@@ -29,10 +29,24 @@ a:hover {
 }
 
 /** navbar **/
-nav{
+li{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+}
+li a{
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 /** footer **/
