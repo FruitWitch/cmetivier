@@ -2,13 +2,20 @@ html, body{
     height: 100%;
     text-align: center;
     background-color: #f1f1f1;
+    font-family: 'Bai Jamjuree', sans-serif;
 
 }
 h1{
-    font-size: 70px;
+    font-size: 80px;
+    font-family: 'Lobster', sans-serif;
 }
 h2{
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+}
+h3{
+    font-family: 'Lobster';
+    font-size: 20px;
 }
 
 /** left stuff **/
@@ -16,18 +23,15 @@ h2{
 #left{
 float: left;
 width: 20%;
-background: #c9c2c2
-
-}
-#left h2{
-    text-align: left;
-    
+background: #c9c2c2;
+padding: 10px;
+margin: 30px;
 }
 
 /** right stuff **/
 #right{
 float: right;
-width: 80%;
+width: 70%;
 text-align: center;
 }
 
@@ -42,6 +46,7 @@ text-align: center;
     margin-bottom: 60px;
     background-color: white;
     overflow: hidden;
+    text-align: center;
 }
 
 .card-left {
@@ -52,16 +57,17 @@ text-align: center;
 
 .card-left img {
     margin: 0px;
-    height: 100%;
+    min-height: 100%;
 }
 .card-right {
 background-color: white;
-flex-direction: column;
-justify-content: space-between;
-min-height: 100%x;
+flex-wrap: wrap;
+justify-content: center;
+min-height: 100%;
 display: flex;
-}
+align-content: space-between;
 
+}
 
 .cardbuttons {
     background-color: white;
