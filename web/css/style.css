@@ -2,3 +2,38 @@ html, body{
     height: 100%;
 
 }
+
+/** left stuff **/
+
+#left{
+float: left;
+width: 20%;
+}
+
+/** right stuff **/
+#right{
+float: right;
+width: 80%;
+text-align: center;
+}
+
+/** footer **/
+footer{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    flex-shrink: 0;
+    margin-top: auto;
+    text-align:center;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.Site-content {
+    flex: 1;
+}
