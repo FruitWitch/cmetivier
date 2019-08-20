@@ -78,6 +78,7 @@ ul{
     padding: 0px;
     flex-shrink: 0;
     margin-top: auto;
+    text-align:center;
 }
 
 #firstpage a:hover{
