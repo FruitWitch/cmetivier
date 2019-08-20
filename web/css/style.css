@@ -31,6 +31,12 @@ padding: 10px;
 margin: 30px;
 }
 
+#left img{
+    margin: 0px;
+    max-width: 100%;
+    height: auto;
+}
+
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
