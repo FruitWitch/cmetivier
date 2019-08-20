@@ -21,6 +21,12 @@ a{
     text-decoration: none;
     color: black;
 }
+a:visited {
+    color: #5c1212;
+}
+a:hover {
+    color: #b62121;
+}
 /** left stuff **/
 
 #left{
@@ -29,16 +35,20 @@ width: 20%;
 background: #c9c2c2;
 padding: 10px;
 margin: 30px;
+border-radius: 5px;
 }
 
 #left img{
     margin: 0px;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: #5c1212bb;
+    
 }
 
 div.sticky {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     margin: 30px;
@@ -92,7 +102,7 @@ align-content: space-between;
 }
 .cardbuttons {
     background-color: white;
-    border: 2px solid #5c1212;
+    border: 2px solid #5c1212bb;
     border-radius: 8px;
     color: black;
     padding: 7px 10px;
