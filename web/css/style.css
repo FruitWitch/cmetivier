@@ -1,6 +1,14 @@
 html, body{
     height: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
 
+}
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 30px;
 }
 
 /** left stuff **/
@@ -8,6 +16,12 @@ html, body{
 #left{
 float: left;
 width: 20%;
+background: #c9c2c2
+
+}
+#left h2{
+    text-align: left;
+    
 }
 
 /** right stuff **/
@@ -17,12 +31,64 @@ width: 80%;
 text-align: center;
 }
 
+.card{
+    position: relative;
+    display: flex;
+    border-radius: 5px;
+    width: 60%;
+    min-height: 100px;
+    box-shadow: 4px 8px 20px #c7c7c7;
+    margin: auto;
+    margin-bottom: 60px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.card-left {
+    width: 40%;
+    padding: 0px;
+    height: 250px;
+}
+
+.card-left img {
+    margin: 0px;
+    height: 100%;
+}
+.card-right {
+background-color: white;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100%x;
+display: flex;
+}
+
+
+.cardbuttons {
+    background-color: white;
+    border: 2px solid #5c1212;
+    border-radius: 8px;
+    color: black;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+
+}
+.cardbuttons:hover {
+    background-color: #5c1212;
+    color: white;
+}
+.card:hover {
+    box-shadow: 4px 8px 13px #c7c7c7;
+}
+
 /** footer **/
 footer{
     font-size: 10px;
     margin: 0px;
     padding: 0px;
-    flex-shrink: 0;
     margin-top: auto;
     text-align:center;
 }
