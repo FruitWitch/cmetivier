@@ -1,0 +1,56 @@
+html, body{
+    height: 100%;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+h1{
+    font-size: 80px;
+    font-family: 'Lobster', sans-serif;
+}
+h2{
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+}
+h3{
+    font-family: 'Lobster';
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: #5c1212;
+}
+a:hover {
+    color: #b62121;
+}
+
+/** navbar **/
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/** footer **/
+footer{
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: auto;
+    text-align:center;
+}
+
+.Site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+.Site-content {
+    flex: 1;
+}
